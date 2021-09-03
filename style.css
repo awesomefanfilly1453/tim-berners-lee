@@ -11,7 +11,8 @@ border-radius: 50%;
 .line{ 
 height: 6px;
 width:80px;
-margin:8px auto;     
+margin:8px auto; 
+    background-color: black;
     
 }
 #welcome{
@@ -33,25 +34,28 @@ opacity:0.8;
 .menu{
   list-style:none;
   z-index:10;
-  position:absolute;
-  top:10px;
-  right:30px;
+  position:fixed;
+  top:0px;
   cursor:pointer;
+    width:100%;
+    background:white;
+    margin-top: 0px;
 }
 .link{
-  float:left;
-  padding-top:5px;
-  padding-bottom:5px;
-  padding-right:10px;
-  padding-left:10px;
-    color:white;
+    display: inline;
+  padding-right:25px;
+  padding-left:30px;
   font-size:20px;
+font-family: fantasy;
 }
 .link:hover{
-  background-color:dodgerblue;
+  text-decoration: underline;
+    font-size: 25px;
 }
 a{
     text-decoration: none;
+    color:crimson;
+text-shadow: 2px 2px gains boro;
 }
 .news{
     font-size: 20px;
@@ -67,4 +71,8 @@ h1{
 }
 p{
 max-width: 450px; margin: 25px auto; font-size: 17px; line-height: 1.3;
+}
+#contact{
+    background:lightpink;
+color:white;
 }
